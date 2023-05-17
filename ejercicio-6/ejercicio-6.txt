@@ -1,0 +1,15 @@
+Division
+{
+	Este es un programa que permite al usuario ingresar dos numeros y realizar la division entre ambos
+}
+
+{
+	dividendo, divisor, cociente son enteros
+}
+
+Inicio
+	2. Leer dividendo
+	4. Leer divisor
+	5. Hacer cociente <- divisor * dividendo
+	6. Escribir cociente
+Fin

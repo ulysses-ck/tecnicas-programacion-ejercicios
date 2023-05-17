@@ -1,0 +1,15 @@
+Potenciacion
+{
+	Este es un programa que permite al usuario ingresar un numero base y un numero exponente
+}
+
+{
+	baseNumero, exponenteNumero, resultado son enteros
+}
+
+Inicio
+	1. Leer baseNumero
+	2. Leer exponenteNumero
+	3. Hacer resultado <- baseNumero ** exponenteNumero
+	4. Escribir resultado
+Fin

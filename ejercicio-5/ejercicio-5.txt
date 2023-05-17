@@ -1,0 +1,15 @@
+Multiplicacion
+{
+	Este es un programa que permite al usuario ingresar dos numeros y realizar la multiplicacion entre ambos
+}
+
+{
+	factorUno, factorDos, producto son enteros
+}
+
+Inicio
+	2. Leer factorUno
+	4. Leer factorDos
+	5. Hacer producto <- factorDos * factorUno
+	6. Escribir producto
+Fin

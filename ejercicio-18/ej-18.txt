@@ -1,0 +1,18 @@
+Numero par o impar
+
+{
+	Este es un programa que determina si un numero es par o impar
+}
+
+{
+	numero
+}
+
+Inicio
+	1. Leer numero
+	2. Si numero mod 2 = 0
+		entonces
+			Escribr "El numero ingresado es par"
+		sino
+			Escribir "El numero ingresado es impar"
+Fin

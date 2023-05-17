@@ -1,0 +1,18 @@
+Monto Total de la compra con descuento
+{
+	Este programa permite calcular el monto final de la compra del valor de 5 productos y su correspondiente
+}
+
+{
+	valorUno, valorDos, valorTres, valorCuatro, descuento, montoTotal, montoFinal son reales
+}
+
+Inicio
+	1. Leer valorUno
+	2. Leer valorDos
+	3. Leer valorTres
+	4. Leer valorCuatro
+	5. Leer descuento
+	6. Hacer montoTotal <- valorUno + valorDos + valorTres + valorCuatro
+	7. Hacer montoFinal <- montoTotal - montoTotal * descuento
+Fin

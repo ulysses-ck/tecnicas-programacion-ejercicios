@@ -1,0 +1,14 @@
+Potencia de numero
+{
+	Este programa que permite al usuario ingresar marca y modelo de un auto e imprime modelo y marca por pantalla
+}
+
+{
+	marcaModelo, marcaAuto son cadenas
+}
+
+Inicio
+	1. Leer marcaAuto
+	2. Leer modeloAuto
+	3. Escribir modeloAuto, marcaAuto
+Fin

@@ -1,0 +1,16 @@
+Es par
+
+{
+	Este es un programa que determina si un número es par
+}
+
+{
+	numero
+}
+
+Inicio
+	1. Leer numero
+	2. Si numero mod 2 = 0 entonces
+		Escribr "El numero ingresado es par"
+	3. {Fin del condicional del paso 2}
+Fin

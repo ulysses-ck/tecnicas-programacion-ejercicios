@@ -1,0 +1,20 @@
+Monto Total de la compra
+{
+	Este programa permite calcular el monto toal de la compra de 4 productos y sus respectivos precios
+}
+
+{
+	productoUno, productoDos, productoTres, productoCuatro, precioUno, precioDos, precioTres, precioCuatro, montoTotal son enteros
+}
+
+Inicio
+	1. Leer productoUno
+	2. Leer productoDos
+	3. Leer productoTres
+	4. Leer productoCuatro
+	5. Leer precioUno
+	6. Leer precioDos
+	7. Leer precioTres
+	8. Leer precioCuatro
+	9. Hacer montoTotal <- productoUno * precioUno + productoDos * precioDos + productoTres * precioTres + productoCuatro * precioCuatro
+Fin

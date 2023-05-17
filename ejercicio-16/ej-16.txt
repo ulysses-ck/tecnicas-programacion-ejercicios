@@ -1,0 +1,20 @@
+Es mayor o menor
+
+{
+	Este es un programa que determina si un numero es mayor que el segundo ingresado
+}
+
+{
+	numero_uno, numero_dos
+}
+
+Inicio
+	1. Leer numero_uno
+	2. Leer numero_dos
+	3. Si numero_uno > numero_dos
+		entonces
+			Escribr "numero_uno es mayor que numero_dos"
+		sino
+			Escribir "numero_dos es menor que numero_dos"
+	4. {Fin del condicional del paso 3}
+Fin

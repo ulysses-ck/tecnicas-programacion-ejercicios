@@ -1,0 +1,18 @@
+Numero impar
+
+{
+	Este es un programa que determina si un numero es impar y muestra el numero impar multiplicado por 2
+}
+
+{
+	numero_uno
+}
+
+Inicio
+	1. Leer numero_uno
+	2. Si numero_uno mod 2 <> 0
+		entonces
+			Hacer resultado <- numero_uno * 2
+	3. {Fin del condicional del paso 2}
+	4. Escribir resultado
+Fin

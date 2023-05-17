@@ -1,0 +1,15 @@
+Compra Total con descuento
+{
+	Este es un programa que permite que el usuario ingrese el total de una compra y restar el descuento correspondiente
+}
+
+{
+	montoTotal, descuento, montoFinal son reales
+}
+
+Inicio
+	4. Hacer descuento <- 0.15
+	2. Leer montoTotal
+	5. Hacer montoFinal <- montoTotal - (montoTotal * descuento)
+	6. Escribir montoFinal
+Fin

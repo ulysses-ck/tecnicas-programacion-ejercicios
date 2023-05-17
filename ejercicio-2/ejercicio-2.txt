@@ -1,0 +1,16 @@
+Intercambio de valores
+{
+	Este es un porgrama que realiza el intercambio de los valores de dos variables
+}
+
+{
+	valorUno, valorDos, auxiliar son enteros
+}
+
+Inicio
+	1. Leer valorUno
+	2. Leer valorDos
+	3. Hacer auxiliar <- valorUno
+	4. Hacer valorUno <- valorDos
+	5. Hacer valorDos <- auxiliar
+Fin

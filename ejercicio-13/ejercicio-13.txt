@@ -1,0 +1,15 @@
+Calculador para monto de luz
+
+{
+	Este programa permite que el usuario ingrese el valor anterior y actual de un medidor de luz para así calcular el monto
+}
+
+{
+	valorAnterior, valorActual, monto son reales
+}
+
+Inicio
+	1. Leer valorAnterior
+	2. Leer valorActual
+	3. Hacer monto = (valorActual - valorAnterior) * 125.6
+Fin

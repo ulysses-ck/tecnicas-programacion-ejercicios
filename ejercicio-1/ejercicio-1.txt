@@ -1,0 +1,15 @@
+Suma de numeros
+{
+	Este es un programa que realiza la suma
+	de dos valores ingresados por usuario
+}
+
+{
+	numeroUno, numeroDos son enteros
+}
+
+Inicio
+	2. Leer numeroUno
+	4. Leer numeroDos
+	5. Hacer suma <- numero_uno + numero_dos
+Fin

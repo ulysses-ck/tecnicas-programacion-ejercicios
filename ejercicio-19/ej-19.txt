@@ -1,0 +1,24 @@
+Numeros mayor o menor o iguales
+
+{
+	Este es un programa que determina si dos numeros son iguales o menor o mayor que el otro
+}
+
+{
+	numero_uno, numero_dos
+}
+
+Inicio
+	1. Leer numero
+	2. Si numero_uno = numero_dos
+		entonces
+			Escribr "Son iguales"
+		sino
+			2.1 Si numero_uno > numero_dos
+				entonces
+					Escribir "numero_uno es mayor que numero_dos"
+				sino
+					Escribir "numero_dos es mayor que numero_uno"
+			2.2 {Fin del condicional del paso 2.1}
+	3. {Fin del condicional del paso 3}
+Fin

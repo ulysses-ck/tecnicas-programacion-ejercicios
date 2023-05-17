@@ -1,0 +1,16 @@
+Calculadora de sueldo neto
+
+{
+	Este es un programa que permite al usuario calcular el sueldo neto de un trabajador ingresando monto a cobrar por horas, total de horas trabajadas y luego restar las cargas sociales y aportes(17%)
+}
+
+{
+	montoHora, horasTrabajadas, sueldoNeto, sueldoBruto son reales
+}
+
+Inicio
+	1. Leer montoHora
+	2. Leer horasTrabajadas
+	3. Hacer sueldoBruto <- montoHora * horasTrabajadas
+	4. Hacer sueldoNeto <-  sueldoBruto - sueldoBruto * 0.17
+Fin

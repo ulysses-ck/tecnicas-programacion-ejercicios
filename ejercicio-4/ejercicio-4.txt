@@ -1,0 +1,15 @@
+Radicación
+{
+	Este es un programa permite al usuario ingresar un radicando e indice y muestra el resultado del cálculo
+}
+
+{
+	radicando, indice, resultado son enteros
+}
+
+Inicio
+	2. Leer radicando
+	4. Leer indice
+	5. Hacer resultado <- radicando ** (1/indice)
+	6. Escribir resultado
+Fin
