@@ -1,0 +1,26 @@
+Calcular ventas
+
+{
+	Programa que muestra el promedio de las ventas e indica si este es mayor que 50000
+}
+
+{
+	venta_refacciones, venta_servicios, venta_autos_camiones
+}
+
+Inicio
+	1. Escribir "Importe de ventas de refacciones."
+	2. Leer venta_refacciones
+	3. Escribir "Importe de ventas de servicios"
+	4. Leer venta_servicios
+	5. Escribir "Importe de ventas de autos y camiones"
+	6. Leer venta_autos_camiones
+	7. Hacer resultado <- (venta_refacciones + venta_servicios + venta_autos_camiones) / 3
+	8. Escribir resultado
+	9. Si resultado >= 50000
+		entonces
+			Escribir "Se alcanzo el objetivo"
+		sino
+			Escribir "Buscar nuevas estrategias de ventas"
+	10. {Fin del condicional del paso 9}
+Fin

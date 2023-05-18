@@ -1,0 +1,18 @@
+Calculo de internacion de paciente
+{
+	Este es un programa que calcula el precio total por dias de internacion y especialidad
+}
+
+{
+	categoria es cadena, cantidad_dias, resultado son enteros
+}
+
+Inicio
+	1. Leer categoria, cantidad_dias
+	2. Si categoria igual
+		"pediatria": Hacer resultado <- 2500 * cantidad_dias
+		"maternidad": Hacer resultado <- 3500 * cantidad_dias
+		"otro": Hacer resultado <- 3000 * cantidad_dias
+	3. {Fin del condicional del paso 2}
+	4. Escribir resultado
+Fin

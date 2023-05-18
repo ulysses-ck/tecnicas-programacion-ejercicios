@@ -1,0 +1,25 @@
+Calcular sueldo neto
+
+{
+	Programa que calcula el sueldo neto de un trabajador
+}
+
+{
+	monto_hora, horas_trabajo, horas_extras, sueldo_neto, sueldo_horas_extras, sueldo_total son enteros
+}
+
+Inicio
+	1. Leer monto_hora
+	2. Leer horas_trabajo
+	3. Si horas_trabajo > 160
+		entonces
+			Hacer horas_extras <- horas_trabajo - 160
+			Hacer sueldo_neto <- (horas_trabajo - horas_extras) * monto_hora
+			Hacer sueldo_horas_extras <- horas_extras * (monto_hora * 2)
+			Hacer sueldo_total <- sueldo_neto + sueldo_horas_extras
+			Escribir sueldo_total
+		sino
+			Hacer sueldo_neto <- horas_trabajo * monto_hora
+			Escribir sueldo_neto
+	4. {Fin del condicional del paso 3}
+Fin

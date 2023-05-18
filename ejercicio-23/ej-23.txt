@@ -1,0 +1,19 @@
+Calculo de factura de luz electrica
+
+{
+	Este es un programa que calcula segun corresponda el total de luz electrica
+}
+{
+	kw_mes, primero, segundo, tercero, cuarto
+}
+
+Inicio
+	1. Leer kw_mes
+	2. Si kw_mes > 200
+		entonces
+			Hacer resultado 30 * 6.03 + 90 * 6.19 + 80 * 6.78 + (kw_mes - 200) * 7.24
+		sino
+			Hacer resultado = 30 * 6.03 + 90 * 6.19 + (kw_mes - 120) * 6.78
+	3. {Fin del condicional del paso 2}
+	4. Escribir resultado
+Fin

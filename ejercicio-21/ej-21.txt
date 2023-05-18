@@ -1,0 +1,24 @@
+Compra con descuento
+
+{
+	Programa que determina si el monto de una compra
+}
+
+{
+	medio_de_pago es cadena, monto es entero, resultado es real
+}
+Inicio
+	1. Leer medio_de_pago
+	2. Leer monto
+	3. Si monto > 5000 Y medio_de_pago = "efectivo"
+		entonces
+			Hacer resultado <- monto - monto * 0.15
+		sino
+			3.1 Si monto > 2000
+				entonces
+					Hacer resultado <- monto - monto * 0.1
+				sino
+					Escribir "resultado"
+			3.2 {Fin del condicional del paso 3.1}
+	4. {Fin del condicional del paso 3}
+Fin

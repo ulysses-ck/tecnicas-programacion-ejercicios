@@ -1,0 +1,25 @@
+Mayor de tres
+
+{
+	Programa que determina el mayor de tres numeros
+}
+
+{
+	numero_uno, numero_dos, numero_tres
+}
+Inicio
+	1. Leer numero_uno
+	2. Leer numero_dos
+	3. Leer numero_tres
+	4. Si numero_uno > numero_dos Y numero_uno > numero_tres
+		entonces
+			Escribir "El numero_uno es el mayor de los tres"
+		sino
+			4.1 Si numero_dos > numero_tres
+				entonces
+					Escribir "El numero_dos es el mayor de los tres"
+				sino
+					Escribir "El numero_tres es el mayor de los tres"
+			4.3 {Fin del condicional del paso 4.1}
+	5 {Fin del condicional del paso 4}
+Fin

@@ -1,0 +1,25 @@
+Calculo de precio
+
+{
+	Este es un programa que sirve para calcular el precio de producto segun el departamento que corresponda
+}
+
+{
+	nombre_articulo es cadena, numero_departamento es entero, precio y resultado son reales
+}
+
+Inicio
+	1. Escribir "a. Nombre del Artículo."
+	2. Leer nombre_articulo
+	3. Escribir "b. Precio o costo unitario."
+	4. Leer precio
+	5. Escribir "c. Número de departamento en donde se localiza el producto."
+	6. Leer numero_departamento
+	7. Si numero_departamento igual
+		1: Hacer resultado <- precio * 0.1
+		2: Hacer resultado <- precio * 0.15
+		3: Hacer resultado <- precio * 0.2
+		De otra forma: resultado <- precio * 0.05
+	8. {Fin del condicional del paso 7}
+	9. Escribir "El precio final del " + nombre_articulo + " es " + resultado
+Fin
