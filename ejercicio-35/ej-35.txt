@@ -1,0 +1,26 @@
+Numeros pares e impares
+
+{
+	Este es un programa que permite ingresar n numeros y determinar cuantos son pares e impares
+}
+
+{
+	pares, impares, numero son enteros
+}
+
+Inicio
+	1. Hacer pares <- 0
+	2. Hacer impares <- 0
+	3. Hacer
+			Leer numero
+			3.1 Si numero mod 2 = 0
+				entonces
+					Hacer pares <- pares + 1
+				sino
+					Hacer impares <- impares + 1
+			3.2 {Fin del condicional del paso 3.1}
+		Mientras numero > 0 O numero = "detener"
+	4. {Fin del ciclo del paso 3}
+	5. Escribir pares
+	6. Escribir impares
+Fin

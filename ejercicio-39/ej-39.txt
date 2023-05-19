@@ -1,0 +1,30 @@
+Porcentaje de alumnos aprobados y desaprobados
+
+{
+	Este es un programa que muestra la cantidad de alumnos desaprobados y aprobados
+}
+{
+	contador_aprobados, contador_desaprobados, contador_notas, nota son enteros y porcentaje_aprobados, porcentaje_desaprobados son reales
+}
+
+Inicio
+	1. Hacer contador_aprobados <- 0
+	2. Hacer contador_desaprobados <- 0
+	3. Hacer contador_notas <- 0
+	4. Hacer
+			Escribir "Ingrese la nota. Escribir un numero negativo para dejar de ingresar notas"
+			Leer nota
+			Hacer contador_notas <- contador_notas + 1
+			4.1 Si nota >= 6
+				entonces
+					contador_aprobados <- contador_aprobados + 1
+				sino
+					contador_desaprobados <- contador_desaprobados + 1
+			4.2 {Fin del condicional del paso 4.1 }
+		Mientras nota > 0
+	5. {Fin del ciclo del paso 4}
+	6. Hacer porcentaje_aprobados <- (contador_aprobados * 100) / contador_notas
+	7. Hacer porcentaje_desaprobados <- (contador_desaprobados * 100) / contador_notas
+	8. Escribir porcentaje_aprobados
+	9. Escribir porcentaje_desaprobados
+Fin

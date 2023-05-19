@@ -1,0 +1,35 @@
+Se requiere de un algoritmo que permita ingresar el sueldo de 10 empleados de una empresa, una vez
+registrados estos valores informes el monto total que la empresa destina en sueldos por mes, el mayor
+sueldo registrado y el menor de ellos. DF – PS
+
+Contador de sueldos
+
+{
+	Este es un programa que permite ingresar n numeros al programa hasta que ingrese 0, muestra el menor, mayor, la cantidad de numeros ingresados y la sumatoria de estos
+}
+
+{
+	suma, sueldo, menor, mayor son enteros
+}
+
+Inicio
+	1. Hacer menor <- 0
+	2. Hacer mayor <- 0
+	3. Hacer suma <- 0
+	4. Repetir con i desde 1 hasta 10:
+		4.1 Leer sueldo
+		4.2 Hacer suma <- suma + sueldo
+		4.3 Si sueldo < menor
+			entonces
+				Hacer menor <- sueldo
+			sino
+				4.3.1 Si sueldo > mayor
+					entonces
+						Hacer mayor > sueldo
+				4.3.2 {Fin del condicional del paso 4.3.1}
+		4.4 {Fin del condicional del paso 4.3}
+	5. {Fin del ciclo del paso 3}
+	6. Escribir suma
+	7. Escribir "menor: ", menor
+	8. Escribir "mayor: ", mayor
+Fin

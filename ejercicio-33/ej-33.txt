@@ -1,0 +1,26 @@
+Notas de alumnos
+
+{
+	Este es un programa que devuelve la cantidad de notas mayores y notas menores
+}
+
+{
+	notas_mayores, notas_menores, nota son enteros
+}
+
+Inicio
+	1. Hacer notas_mayores <- 0
+	2. Hacer notas_menores <- 0
+	3. Hacer i <- 1
+	4. Repetir con i desde 1 hasta 10:
+		4.1 Leer nota
+		4.2 Si nota >= 7
+			entonces
+				Hacer notas_mayores <- notas_mayores + 1
+			sino
+				Hacer notas_menores <- notas_menores + 1
+		4.3 {Fin del condicional del paso 4.2}
+	5. {Fin del ciclo del paso 4}
+	6. Escribir notas_mayores
+	7. Escribir notas_menores
+Fin

@@ -1,0 +1,5 @@
+40. Se requiere de un algoritmo que permita al gerente de una empresa ingresar el sueldo que posee
+actualmente un empleado. En caso de que este sea menor a 50.000 se le deberá aumentar un 15% e
+informar el monto final que obtendrá. En caso de que sea superior a 50.000 se le deberá aumentar un 10%
+e informar el monto final que obtendrá. Cuando el gerente termine de ingresar los sueldos y calcular los aumentos, informará el dinero total que la empresa deberá destinar a dichos aumentos y el monto total que
+deberán depositar en concepto de sueldos. DF – PS - PY

@@ -1,0 +1,21 @@
+Menor y mayor de varios numeros
+
+{
+	Este es un programa que permite ingresar n numeros al programa hasta que ingrese 0
+}
+
+{
+	numero, menor, mayor son enteros
+}
+
+Inicio
+	1. Hacer suma_edad <- 0
+	2. Hacer contador <- 0
+	2. Hacer
+			Hacer suma_edad <- suma_edad + edad
+			Hacer contador <- contador + 1
+		Mientras edad <> "Detener"
+	4. {Fin del ciclo del paso 3}
+	5. Hacer promedio <- suma_edad / contador
+	6. Escribir promedio
+Fin

@@ -1,0 +1,35 @@
+Menor y mayor de varios numeros
+
+{
+	Este es un programa que permite ingresar n numeros al programa hasta que ingrese 0, muestra el menor, mayor, la cantidad de numeros ingresados y la sumatoria de estos
+}
+
+{
+	numero, menor, mayor son enteros
+}
+
+Inicio
+	1. Hacer menor <- 0
+	2. Hacer mayor <- 0
+	3. Hacer contador <- 0
+	4. Hacer suma <- 0
+	5. Hacer
+			Leer numero
+			Hacer contador <- contador + 1
+			Hacer suma <- suma + numero
+			5.1 Si numero < menor
+				entonces
+					Hacer menor <- numero
+				sino
+					5.1.1 Si numero > mayor
+						entonces
+							Hacer mayor > numero
+					5.1.2 {Fin del condicional del paso 5.1.1}
+			5.2 {Fin del condicional del paso 5.1}
+		Mientras numero <> 0 Y numero > 0
+	6. {Fin del ciclo del paso 3}
+	7. Escribir suma
+	8. Escribir contador
+	9. Escribir "menor: ", menor
+	10. Escribir "mayor: ", mayor
+Fin

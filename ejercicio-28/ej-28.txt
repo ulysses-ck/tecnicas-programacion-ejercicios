@@ -1,0 +1,20 @@
+Suma de numeros anteriores
+
+{
+	Este es un programa que realiza la suma de los numeros anteriores a un numero dado
+}
+
+{
+	numero, suma son enteros
+}
+
+Inicio
+
+	1. Leer numero
+	2. Hacer suma <- 0
+	3. Hacer i <- 1
+	4. Repetir con i desde 1 hasta numero:
+		Hacer suma <- suma + i
+	4. {Fin del ciclo del paso 3}
+	5. Escribir suma
+Fin

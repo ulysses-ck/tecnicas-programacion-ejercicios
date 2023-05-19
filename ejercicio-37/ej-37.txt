@@ -1,0 +1,31 @@
+Programa de censo
+
+{
+	Programa que sirve para censar, este recibe la edad de la persona y si cuenta con conexion a internet, luego dispone dicha informacion
+}
+{
+	suma, contador_persona, contador_internet, contador_persona son enteros
+}
+
+Inicio
+	1. Hacer contador_persona <- 0
+	2. Hacer suma <- 0
+	3. Hacer contador_internet <- 0
+	4. Hacer
+		Escribir "¿Cual es su edad?  Escribir un numero negativo para detner el programa"
+		Leer edad
+		Escribir "¿Cuenta con conexión a internet? Responder con Si o No"
+		Leer tiene_internet
+		Hacer contador_persona <- contador_persona + 1
+		Hacer suma <- suma + edad
+		4.1 Si tiene_internet = "si"
+			entonces
+				Hacer contador_internet <- contador_internet + 1
+		4.2 {Fin del condicional del paso 4.1}
+	Mientras edad > 0 O edad = "listo"
+	5. {Fin del ciclo del paso 4}
+	6. Hacer promedio <- suma / contador_persona
+	7. Escribir contador_persona
+	8. Escribir promedio
+	9. Escribir "De ", contador_persona, " personas, ", contador_internet, " poseen conexion a internet"
+Fin

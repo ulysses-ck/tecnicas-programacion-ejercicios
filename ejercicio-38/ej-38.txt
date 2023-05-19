@@ -1,0 +1,56 @@
+Ventas con comision
+
+{
+	Este es un programa que informa la comisión correspondiente a cada vendedor y su venta mayor y menor
+}
+
+{
+
+}
+
+inicio
+	1. Hacer menor_venta_maria <- 0
+	2. Hacer mayor_venta_maria <- 0
+	3. Hacer menor_venta_pablo <- 0
+	4. Hacer mayor_venta_pablo <- 0
+	5. Hacer suma_maria <- 0
+	6. Hacer suma_pablo <- 0
+	7. Hacer
+			Escribir "Ingrese el monto de la venta"
+			Leer venta
+			Escribir "Ingrese la inicial del vendedor. M para maria o P para pablo"
+			Leer vendedor
+			7.1 Si vendedor = "M"
+				entonces
+					suma_pablo <- suma_pablo + venta
+					7.1.1 Si venta < menor_venta_pablo
+						entonces
+							Hacer menor_venta_pablo <- venta
+						sino
+							7.1.1.1 Si venta > mayor_venta_pablo
+								entonces
+									Hacer mayor_venta_pablo <- numero
+							7.1.1.2 {Fin del condicional del paso 7.1.1.1}
+					7.1.2 {Fin del condicional del paso 7.1.1}
+				sino
+					suma_maria <- suma_maria + venta
+					7.1.3 Si venta < menor_venta_maria
+						entonces
+							Hacer menor_venta_maria <- venta
+						sino
+							7.2.1.1 Si venta > mayor_venta_maria
+								entonces
+									Hacer mayor_venta_maria <- venta
+							7.2.1.2 {Fin del condicional del paso 7.1.1.2}
+					7.1.4 {Fin del condicional del paso 7.1.3}
+		Mientras venta > 0
+	8. {Fin del ciclo del paso 7}
+	9. Hacer venta_comision_maria <- suma_maria * 0.15
+	10. Hacer venta_comision_pablo <- suma_pablo * 0.15
+	11. Escribir venta_comision_pablo
+	12. Escribir menor_venta_pablo
+	13. Escribir mayor_venta_pablo
+	14. Escribir venta_comision_maria
+	15. Escribir menor_venta_maria
+	16. Escribir mayor_venta_maria
+Fin
