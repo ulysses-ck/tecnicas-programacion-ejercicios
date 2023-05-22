@@ -19,7 +19,7 @@ Inicio
 				sino
 					Hacer impares <- impares + 1
 			3.2 {Fin del condicional del paso 3.1}
-		Mientras numero > 0 O numero = "detener"
+		Mientras numero > 0
 	4. {Fin del ciclo del paso 3}
 	5. Escribir pares
 	6. Escribir impares

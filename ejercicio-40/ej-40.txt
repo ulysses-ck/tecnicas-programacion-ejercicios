@@ -1,5 +1,20 @@
-40. Se requiere de un algoritmo que permita al gerente de una empresa ingresar el sueldo que posee
-actualmente un empleado. En caso de que este sea menor a 50.000 se le deberá aumentar un 15% e
-informar el monto final que obtendrá. En caso de que sea superior a 50.000 se le deberá aumentar un 10%
-e informar el monto final que obtendrá. Cuando el gerente termine de ingresar los sueldos y calcular los aumentos, informará el dinero total que la empresa deberá destinar a dichos aumentos y el monto total que
-deberán depositar en concepto de sueldos. DF – PS - PY
+Inicio
+	1. Hacer suma_sueldos <- 0
+	2. Hacer suma_comisiones <- 0
+	3. Hacer
+			Escribir "Ingrese el monto del sueldo. Escriba un numero negativo para finalizar el ingreso"
+			Leer sueldo
+			Hacer suma_sueldos <- suma_sueldos + sueldo
+			3.1 Si sueldo > 50000
+				entonces
+					Hacer comision <- sueldo * 0.1
+				sino
+					Hacer comision <- sueldo * 0.15
+			3.2 {Fin del condicional del paso 3.1}
+			Hacer suma_comisiones <- suma_comisiones + comision
+			Hacer resultado <- comision + sueldo
+			Escribir "El sueldo más el aumento correspondiente es: ", resultado
+		Mientras sueldo > 0
+	4. Escribir suma_comisiones
+	5. Escribir suma_sueldos
+Fin
