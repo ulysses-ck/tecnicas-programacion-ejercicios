@@ -5,7 +5,7 @@ Menor y mayor de varios numeros
 }
 
 {
-	numero, menor, mayor son enteros
+	numero, menor, mayor, contador, suma son enteros
 }
 
 Inicio

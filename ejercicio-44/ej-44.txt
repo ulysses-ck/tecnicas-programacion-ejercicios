@@ -1,8 +1,18 @@
+Promedio de edades
+
+{
+	Este es un programa que calcula el promedio de estudiantes de una universidad mayores a 21 años y menores
+}
+
+{
+	suma_edad_mayores, suma_edad_menores, contador_mayores, contador_menores, edad son enteros y promedio_menor, promedio_mayor son reales
+}
+
 Inicio
-	1. Hacer suma_edad_mayores
-	2. Hacer suma_edad_menores
-	3. contador_mayores
-	4. contador_menores
+	1. Hacer suma_edad_mayores <- 0
+	2. Hacer suma_edad_menores <- 0
+	3. Hacer contador_mayores <- 0
+	4. Hacer contador_menores <- 0
 	5. Hacer
 			Leer edad
 			5.1 Si edad > 21
@@ -15,8 +25,9 @@ Inicio
 					Hacer contador_menores <- contador_menores + 1
 			5.2 {Fin del condicional de paso 5.1}
 		Mientras edad > 0
-	4. Hacer promedio_mayor <- suma_edad_mayores / contador_mayores
-	5. Hacer promedio_menor <- suma_edad_menores / contador_menores
-	6. Escribir promedio_mayor
-	7. Escribir promedio_menor
+	6. {Fin del ciclo del paso 5}
+	7. Hacer promedio_mayor <- suma_edad_mayores / contador_mayores
+	8. Hacer promedio_menor <- suma_edad_menores / contador_menores
+	9. Escribir promedio_mayor
+	10. Escribir promedio_menor
 Fin

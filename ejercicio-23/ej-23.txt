@@ -4,7 +4,7 @@ Calculo de factura de luz electrica
 	Este es un programa que calcula segun corresponda el total de luz electrica
 }
 {
-	kw_mes, primero, segundo, tercero, cuarto
+	kw_mes es entero y resultado es real
 }
 
 Inicio

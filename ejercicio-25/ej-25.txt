@@ -5,7 +5,7 @@ Calcular ventas
 }
 
 {
-	venta_refacciones, venta_servicios, venta_autos_camiones
+	venta_refacciones, venta_servicios, venta_autos_camiones y resultado son reales
 }
 
 Inicio

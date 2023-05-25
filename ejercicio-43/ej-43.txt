@@ -1,8 +1,3 @@
-En un teatro se otorgan descuentos según la edad del cliente. Determinar la cantidad de dinero que el teatro
-deja de percibir por cada una de las categorías. Tener en cuenta que los niños menores de 5 años no
-pueden entrar al teatro y que existe un precio único en los asientos. Los descuentos se hacen tomando en
-cuenta el siguiente cuadro: DF – PS - PY
-
 Teatro
 
 {

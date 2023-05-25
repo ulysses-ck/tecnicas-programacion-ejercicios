@@ -4,7 +4,7 @@ Calculo de internacion de paciente
 }
 
 {
-	categoria es cadena, cantidad_dias, resultado son enteros
+	categoria es cadena, cantidad_dias y resultado son enteros
 }
 
 Inicio

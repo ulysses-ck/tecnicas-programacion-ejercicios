@@ -3,21 +3,33 @@ de una empresa. Se sabe que cuando las horas que trabajo un obrero exceden de 40
 en horas extras que se pagan al doble de una hora normal. Cuando las horas extras exceden de 8 se pagan
 las primeras 8 al doble de lo que se paga por una hora normal y el resto al triple. Se debe tener en cuenta
 que el valor de una hora normal es de $500. DF – PS
+
+Calculador de salario de obreros
+{
+	Este es un programa que calcula el salario de un obrero segun las horas que ingrese y las horas extras tambien
+}
+
+{
+	horas, horas_extras y salario son enteros
+}
+
+
 Inicio
-1. Hacer
-		Leer horas
-		1.1 Si horas < 40
-			entonces
-				Hacer horas_extras <- horas - 40
-				1.1.1 Si horas_extras < 8
-					entonces
-						Hacer salario <- (horas - horas_extras) * 500 + horas_extras * 1000
-					sino
-						Hacer salario <- (horas - horas_extras) * 500 + horas_extras * 1500 + 8 * 1000
-				1.1.2 {Fin del condicional del paso 1.1.1}
-			sino
-				Hacer salario <- horas * 500
-		1.2 {Fin del condicional del paso 1.1}
-		Escribir salario
-	Mientras horas > 0
+	1. Hacer
+			Leer horas
+			1.1 Si horas < 40
+				entonces
+					Hacer horas_extras <- horas - 40
+					1.1.1 Si horas_extras < 8
+						entonces
+							Hacer salario <- (horas - horas_extras) * 500 + horas_extras * 1000
+						sino
+							Hacer salario <- (horas - horas_extras) * 500 + horas_extras * 1500 + 8 * 1000
+					1.1.2 {Fin del condicional del paso 1.1.1}
+				sino
+					Hacer salario <- horas * 500
+			1.2 {Fin del condicional del paso 1.1}
+			Escribir salario
+		Mientras horas > 0
+	2. {Fin del condicional del paso 1}
 Fin

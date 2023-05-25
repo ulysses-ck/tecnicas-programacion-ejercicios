@@ -1,10 +1,3 @@
-En una tienda de descuento las personas que van a pagar el importe de su compra llegan a la caja y sacan
-una bolita de color, que les dirá que descuento tendrán sobre el total de su compra. “Determinar la cantidad
-que pagara cada cliente desde que la tienda abre hasta que cierra”. Se sabe que si el color de la bolita es
-rojo el cliente obtendrá un 40% de descuento; si es amarilla un 25% y si es blanca no obtendrá descuento.
-(puede utilizar la función Aleatorio que devuelve un numero en un rango definido, por ejemplo del 1 al 3,
-Ejemplo: Aleatorio (1,3) así defino la función para el seudocódigo) DF – PS
-
 Tienda de descuentos
 
 {
@@ -12,7 +5,7 @@ Tienda de descuentos
 }
 
 {
-	bolita, monto son enteros
+	bolita, monto son enteros y monto_total es real
 }
 
 Inicio

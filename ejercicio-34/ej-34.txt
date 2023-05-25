@@ -5,7 +5,7 @@ Menor y mayor de varios numeros
 }
 
 {
-	numero, menor, mayor son enteros
+	numero, menor, mayor, suma_edad, contador son enteros y promedio es real
 }
 
 Inicio

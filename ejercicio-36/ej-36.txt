@@ -1,7 +1,3 @@
-Se requiere de un algoritmo que permita ingresar el sueldo de 10 empleados de una empresa, una vez
-registrados estos valores informes el monto total que la empresa destina en sueldos por mes, el mayor
-sueldo registrado y el menor de ellos. DF – PS
-
 Contador de sueldos
 
 {

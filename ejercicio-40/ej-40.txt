@@ -1,3 +1,13 @@
+Suma de sueldo y comision
+
+{
+	Este es un programa que recolecta los sueldos de una empresa e informa el dinero destinado para todos los sueldos y las comisiones correspondientes
+}
+
+{
+	suma_comisiones es real, suma_sueldos y sueldo son enteros
+}
+
 Inicio
 	1. Hacer suma_sueldos <- 0
 	2. Hacer suma_comisiones <- 0
@@ -15,6 +25,7 @@ Inicio
 			Hacer resultado <- comision + sueldo
 			Escribir "El sueldo más el aumento correspondiente es: ", resultado
 		Mientras sueldo > 0
-	4. Escribir suma_comisiones
-	5. Escribir suma_sueldos
+	4. {Fin del ciclo del paso 3}
+	5. Escribir suma_comisiones
+	6. Escribir suma_sueldos
 Fin

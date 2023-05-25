@@ -5,7 +5,7 @@ Ventas con comision
 }
 
 {
-
+	menor_venta_maria, mayor_venta_maria ,menor_venta_pablo, mayor_venta_pablo, suma_maria, suma_pablo son enteros y venta_comision_maria, venta_comision_pablo son reales
 }
 
 inicio
