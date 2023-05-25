@@ -1,7 +1,3 @@
-# 37. Se requiere de un algoritmo que permita ingresar los registros de un censo hasta que el censista indique
-# que ya ha cargado todos los resultados. Cuando esto ocurra, se deberá informar cantidad de personas
-# censadas, el promedio de edad de ellos y cuantas de estas personas cuentan con internet en sus hogares.
-# DF – PS - PY
 contador_persona = 0
 suma = 0
 contador_internet = 0

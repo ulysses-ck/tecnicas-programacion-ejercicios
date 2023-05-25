@@ -1,0 +1,23 @@
+Informe de runner
+
+{
+	Este programa devuelve un informe segun la cantidad que va a correr un runnner, informando el promedio semanal y el total de calorías quemadas. El usuario ingresaria
+}
+
+{
+
+}
+
+Inicio
+	1. Hacer km_recorridos <- 0
+	2. Hacer total_kcal <- 0
+	3. Repetir con i desde 1 hasta 4:
+		Leer kilometros
+		Hacer km_recorridos <- km_recorridos + kilometros
+		Hacer total_kcal <- total_kcal +  (kilometros // 2) * 380
+	4. {Fin del condicional del paso 3}
+	5. Hacer promedio <- km_recorridos / 4
+	6. Escribir km_recorridos
+	7. Escribir promedio
+	8. Escribir total_kcal
+Fin

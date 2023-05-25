@@ -1,0 +1,29 @@
+En una tienda de descuento las personas que van a pagar el importe de su compra llegan a la caja y sacan
+una bolita de color, que les dirá que descuento tendrán sobre el total de su compra. “Determinar la cantidad
+que pagara cada cliente desde que la tienda abre hasta que cierra”. Se sabe que si el color de la bolita es
+rojo el cliente obtendrá un 40% de descuento; si es amarilla un 25% y si es blanca no obtendrá descuento.
+(puede utilizar la función Aleatorio que devuelve un numero en un rango definido, por ejemplo del 1 al 3,
+Ejemplo: Aleatorio (1,3) así defino la función para el seudocódigo) DF – PS
+
+Tienda de descuentos
+
+{
+	Este es un programa que determina que descuento corresponde al cliente segun el color de la bolita que tenga
+}
+
+{
+	bolita, monto son enteros
+}
+
+Inicio
+	1. Hacer
+			Leer monto
+			Hacer bolita <- Aleatorio(1,3)
+			1.2 Si bolita igual
+				1: Hacer monto_total <- monto - monto * 0.4
+				2: Hacer monto_total <- monto - monto * 0.25
+			1.3 {Fin del condicional del paso 1.2}
+		Mientras monto > 0
+	2. {Fin del ciclo del paso 1}
+	3. Escribir monto_total
+Fin

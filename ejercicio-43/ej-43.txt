@@ -1,0 +1,39 @@
+En un teatro se otorgan descuentos según la edad del cliente. Determinar la cantidad de dinero que el teatro
+deja de percibir por cada una de las categorías. Tener en cuenta que los niños menores de 5 años no
+pueden entrar al teatro y que existe un precio único en los asientos. Los descuentos se hacen tomando en
+cuenta el siguiente cuadro: DF – PS - PY
+
+Teatro
+
+{
+	Este es un programa que determina el descuento del valor de una entrada según la edad del cliente
+}
+
+{
+	edad es entero, valor_entrada y descuento son reales
+}
+
+Inicio
+	1. Leer valor_entrada
+	3. Hacer
+			Leer edad
+			3.1 Si edad < 45
+					entonces
+						3.1.1 Si edad < 25
+							entonces
+								3.1.1.1 Si edad < 15
+									entonces
+										Hacer descuento <- valor_entrada * 0.35
+									sino
+										Hacer descuento <- valor_entrada * 0.25
+								3.1.1.2 {Fin del condicional del paso 3.1.1.1}
+							sino
+								Hacer descuento <- valor_entrada * 0.2
+						3.1.2 {Fin del condicional del paso 3.1.1}
+					sino
+						Hacer descuento <- valor_entrada * 0.15
+			3.2 {Fin del condicional del paso 3.1}
+		Mientras valor_entrada > 0 Y edad > 0
+	4. {Fin del ciclo del paso 3}
+	5. Escribir descuento
+Fin

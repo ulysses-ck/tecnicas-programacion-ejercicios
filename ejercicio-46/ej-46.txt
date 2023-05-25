@@ -1,0 +1,32 @@
+46. Se requiere de un algoritmo que lea los 250.000 votos de los 3 candidatos a intendente de la ciudad. Luego
+informar el dato del candidato ganador y los porcentajes de este candidato y los demás. (Función Aleatorio
+devuelve un numero en un rango definido, en este caso del 1 al 3, Ejemplo: Aleatorio(1,3) así defino la
+función para el seudocódigo) DF – PS - PY
+
+Inicio
+	1. Hacer candidato_votos_uno <- 0
+	2. Hacer candidato_votos_dos <- 0
+	3. Hacer candidato_votos_tres <- 0
+	4. Repetir con i desde 1 hasta 250000:
+		Hacer voto <- Aleatorio(1,3)
+		4.1 Si voto igual:
+			1: Hacer candidato_votos_uno <- candidato_votos_uno + 1
+			2: Hacer candidato_votos_dos <- candidato_votos_dos + 2
+			3: Hacer candidato_votos_tres <- candidato_votos_tres + 3
+		4.2 {Fin del condicional del paso 4.1}
+	5. {Fin del ciclo del paso 4}
+	7. Si candidato_votos_uno > candidato_votos_dos Y candidato_votos_uno > candidato_votos_tres
+		entonces
+			Escribir "El candidato uno gana"
+		sino
+			7.1 Si candidato_votos_dos > candidato_votos_tres
+				entonces
+					Escribir "El candidato dos gana"
+				sino
+					Escribir "El numero_tres es el mayor de los tres"
+			7.2 {Fin del condicional del paso 7.1}
+	8. {Fin del condicional del paso 7}
+	9. Hacer porcentaje_uno <- candidato_votos_uno * 250000 / 100
+	10. Hacer porcentaje_dos <- candidato_votos_dos * 250000 / 100
+	11. Hacer porcentaje_tres <- candidato_votos_tres * 250000 / 100
+Fin

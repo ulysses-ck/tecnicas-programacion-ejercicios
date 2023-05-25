@@ -1,0 +1,22 @@
+Inicio
+	1. Hacer suma_edad_mayores
+	2. Hacer suma_edad_menores
+	3. contador_mayores
+	4. contador_menores
+	5. Hacer
+			Leer edad
+			5.1 Si edad > 21
+				entonces
+					Hacer suma_edad_mayores <- suma_edad_mayores + edad
+					Hacer contador_mayores <- contador_mayores + 1
+
+				sino
+					Hacer suma_edad_menores <- suma_edad_menores + edad
+					Hacer contador_menores <- contador_menores + 1
+			5.2 {Fin del condicional de paso 5.1}
+		Mientras edad > 0
+	4. Hacer promedio_mayor <- suma_edad_mayores / contador_mayores
+	5. Hacer promedio_menor <- suma_edad_menores / contador_menores
+	6. Escribir promedio_mayor
+	7. Escribir promedio_menor
+Fin
