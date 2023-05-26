@@ -22,7 +22,7 @@ inicio
 			Leer vendedor
 			7.1 Si vendedor = "M"
 				entonces
-					suma_pablo <- suma_pablo + venta
+					Hacer suma_pablo <- suma_pablo + venta
 					7.1.1 Si venta < menor_venta_pablo
 						entonces
 							Hacer menor_venta_pablo <- venta
@@ -33,7 +33,7 @@ inicio
 							7.1.1.2 {Fin del condicional del paso 7.1.1.1}
 					7.1.2 {Fin del condicional del paso 7.1.1}
 				sino
-					suma_maria <- suma_maria + venta
+					Hacer suma_maria <- suma_maria + venta
 					7.1.3 Si venta < menor_venta_maria
 						entonces
 							Hacer menor_venta_maria <- venta
